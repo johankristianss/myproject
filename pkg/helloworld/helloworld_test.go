@@ -15,7 +15,7 @@ func TestNewHelloWorld(t *testing.T) {
 		t.Errorf("expected msg to be %q, but got %q", expectedMessage, hw.msg)
 	}
 
-	err := errors.New("an example error")
+	err := errors.New("an example error 2")
 	assert.Nil(t, err, "error should be nil")
 
 }
